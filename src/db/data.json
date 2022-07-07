@@ -1,0 +1,48 @@
+{
+    "products": [
+        {
+            "sku": "001",
+            "name": "Azúcar de Coco Orgánico 450 G",
+            "price": 27.00,
+            "img": "https://farmaciauniversal.com/assets/sources/PRODUCTOS/Az%C3%BAcar%20de%20Coco%20Org%C3%A1nico%20-%20%20450%20G%20-%2024871%20-%20Farmacia%20Universal.jpg",
+            "description": "Es muy bueno para usarse en café, jugos, para hornear postres y en salsas. No es tan dulce como los azúcares refinados, por lo que si deseas mantener el mismo nivel de dulzura deberás ponerle un poco más de cantidad respecto a azúcares refinados."
+
+        },
+        {
+            "sku": "002",
+            "name": "Miel de Abeja x 500 gr",
+            "price": 22.50,
+            "img": "https://farmaciauniversal.com/assets/sources/PRODUCTOS/Miel%20de%20Abeja%20-%20500%20gr%20-%2009364%20-%20Farmacia%20Universal.jpg",
+            "description": "La miel es una sustancia dulce natural producida por las abejas a partir del néctar de plantas o de secreciones de partes vivas de las plantas o de excreciones de insectos chupadores presentes en las partes vivas de las plantas, que las abejas recolectan, transforman combinándolas con sustancias específicas de las propias, depositan, deshidratan, almacenan y las dejan en las colmenas para que madure (Codex Alimentarius). Este producto es valorado por sus propiedades nutricionales, medicinales y terapéutica"
+        },
+        {
+            "sku": "003",
+            "name": "Polvo de Cacao Amazonia x 200 g",
+            "price": 16.80,
+            "img": "https://farmaciauniversal.com/assets/sources/PRODUCTOS/24670-Cacao-en-polvo-200g-farmacia-universal.jpg",
+            "description": "Polvo de Cacao."
+        },
+        {
+            "sku": "004",
+            "name": "Aceite de Coco Extra Virgen 1L",
+            "price": 95.00,
+            "img": "https://farmaciauniversal.com/assets/sources/Veet/19955-ACEITE-DE-COCO.jpg",
+            "description": "Como acondicionador de cabello, hidratante facial y/o corporal y uso de aceite de cocina"
+        },
+        {
+            "sku": "005",
+            "name": "Azúcar de Coco Orgánico 450 G",
+            "price": 12.00,
+            "img": "https://farmaciauniversal.com/assets/sources/PRODUCTOS/ACEITE%20DE%20COCO%20BIOSELVA%20X%201L%20-%2024676%20-%20Farmacia%20Universal.jpg",
+            "description": "Aceite de coco bioselva 1L: Aceite de coco de calidad superior.  producto orgánico con certificado usda. "
+        },
+        {
+            "sku": "006",
+            "name": "Mate de Manzanilla x 75g",
+            "price": 6.90,
+            "img": "https://farmaciauniversal.com/assets/sources/PRODUCTOS/MANZANILLA-25218-75%20GR-Farmacia%20Universal.jpg",
+            "description": "La manzanilla es una planta aromática que posee un tallo largo, recto y desprovisto de hojas. En el tope de éste brotan las flores que están compuestas por un centro abundante en vellos en tono amarillo y están rodeados de unas hojas blancas. y es Nativa de Europa. "
+        }
+    ],
+    "cart": []
+}
