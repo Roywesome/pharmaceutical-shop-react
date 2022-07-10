@@ -3,12 +3,12 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./views/Home";
 import "./App.css";
 import Layout from "./layout/Layout";
-import Products from "./views/Products";
-import AboutUs from "./views/AboutUs";
 import Cart from "./views/Cart";
 import Contact from "./views/Contact";
+import Products from "./views/Products";
 import Product from "./views/Product";
-import ListProducts from "./components/ListProducts";
+import ListViewLayout from "./layout/ListViewLayout";
+import PageNotFound from "./views/PageNotFound";
 
 function App() {
   return (
@@ -16,13 +16,15 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="/products" element={<Products />}>
-            <Route index element={<ListProducts />} />
+
+          <Route path="/products" element={<ListViewLayout />}>
+            <Route index element={<Products />} />
             <Route path=":sku" element={<Product />} />
           </Route>
-          <Route path="/about-us" element={<AboutUs />} />
+
           <Route path="/contact" element={<Contact />} />
           <Route path="/cart" element={<Cart />} />
+          <Route path="*" element={<PageNotFound />} />
         </Route>
       </Routes>
     </div>
